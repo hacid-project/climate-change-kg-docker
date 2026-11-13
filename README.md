@@ -1,19 +1,19 @@
-# climate-services-kg-docker
-Docker setup for HACID climate services knowledge graph instance
+# climate-change-kg-docker
+Docker setup for Climate Change Knowledge Graph instance
 
 ## Get the RDF Dump
 
 Get the RDF dump file in one these two ways:
 - download latest release from https://doi.org/10.6084/m9.figshare.29066711
-- generate it with the code at https://github.com/hacid-project/climate-services-kg (currently undocumented!)
+- generate it with the code at https://github.com/hacid-project/climate-change-kg (currently undocumented!)
 
 First method is recommended unless you are a KG developer updating the data source mapping.
 
 ## Install Services
 
 ```shell
-git clone https://github.com/hacid-project/climate-services-kg-docker
-cd climate-services-kg-docker
+git clone https://github.com/miguel76/climate-change-kg-docker
+cd climate-change-kg-docker
 ./build-lodview-img.sh
 ```
 

@@ -60,7 +60,7 @@
 ## 	IRIs namespace we use to replace the webapp base (eg. http://localhost:8080/lodview/), an
 ##	installation on dbpedia domain should use <http://dbpedia.org/resource/> 
 	
-	conf:IRInamespace <https://w3id.org/hacid/data/cs/>  ;
+	conf:IRInamespace <https://w3id.org/climate-change-kg/data/>  ;
 
 ## 	EndPoint
 
@@ -172,7 +172,7 @@
 ##	if you are using a proxy, set it at <auto> for testing, an installation on dbpedia
 ##	domain should use <http://dbpedia.org/resource/>
 
-	conf:publicUrlPrefix <https://keng.istc.cnr.it/hacid-cs-kg/id/>; ## or <auto>
+	conf:publicUrlPrefix <https://keng.istc.cnr.it/climate-change-kg/id/>; ## or <auto>
 
 
 ## solve IRI issues in particular environments (proxypass, etc.)
@@ -190,7 +190,7 @@
 ##	"http://data.yourdomain.com/staticResources/", on a test environment you can set it
 ##	at <auto>
  	
-	conf:staticResourceURL <https://keng.istc.cnr.it/hacid-cs-kg/id/staticResources/>;
+	conf:staticResourceURL <https://keng.istc.cnr.it/climate-change-kg/id/staticResources/>;
 	
 ##  choosing the lower class in hierarchy to put it on the top right of the page
 ##	put in mainOntologies the prefixes you need to filter the resource's classes
