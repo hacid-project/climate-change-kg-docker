@@ -12,7 +12,7 @@ First method is recommended unless you are a KG developer updating the data sour
 ## Install Services
 
 ```shell
-git clone https://github.com/miguel76/climate-change-kg-docker
+git clone https://github.com/hacid-project/climate-change-kg-docker
 cd climate-change-kg-docker
 ./build-lodview-img.sh
 ```
@@ -27,13 +27,13 @@ sudo docker compose up
 
 Go to http://keng.istc.cnr.it:7200/repository/create/graphdb.
 
-Create a new repository called `hacid-cs`.
+Create a new repository called `climate-change-kg`.
 
 ## Load Data
 
 Go to http://keng.istc.cnr.it:7200/import#user.
 
-Upload the RDF dump to the `hacid-cs` repository.
+Upload the RDF dump to the `climate-change-kg` repository.
 
 ## Update SSL Certificate
 
