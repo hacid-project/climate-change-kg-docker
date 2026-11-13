@@ -1,4 +1,4 @@
-name: hacid-cs-kg
+name: climate-change-kg
 services:
   out-facing:
     image: nginx:latest
@@ -18,7 +18,7 @@ services:
       - ./certbot/conf/:/etc/letsencrypt/:rw
   triplestore:
     image: ontotext/graphdb:11.3.3
-    container_name: graphdb-hacid-cs
+    container_name: graphdb-climate-change-kg
     restart: unless-stopped
     ports:
     - '7200:7200'
@@ -40,6 +40,6 @@ services:
     image: mathiasvda/yasgui
     restart: unless-stopped
     environment:
-      YASGUI_DEFAULT_ENDPOINT: "https://keng.istc.cnr.it/hacid-cs-kg/sparql"
+      YASGUI_DEFAULT_ENDPOINT: "https://keng.istc.cnr.it/climate-change-kg/sparql"
     ports:
     - '8088:8080'
