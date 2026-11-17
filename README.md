@@ -4,7 +4,7 @@ Docker setup for Climate Change Knowledge Graph instance
 ## Get the RDF Dump
 
 Get the RDF dump file in one these two ways:
-- download latest release from https://doi.org/10.6084/m9.figshare.29066711
+- download latest release from https://doi.org/10.5281/zenodo.24305088
 - generate it with the code at https://github.com/hacid-project/climate-change-kg
 
 First method is recommended unless you are a KG developer updating the data source mapping.
